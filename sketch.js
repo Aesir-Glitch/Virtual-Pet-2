@@ -53,6 +53,8 @@ function draw() {
     text("Last Fed : " + lastFed + "AM",350,30)
   }
 
+  text("Food : " + foodS,200,30)
+
   foodObject.display();
 
   drawSprites();
